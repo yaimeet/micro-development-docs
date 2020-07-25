@@ -79,7 +79,7 @@
   
 项目启动顺序是这样的：
 
-![公共模块项目启动顺序](http://assets.processon.com/chart_image/5f1bd961e0b34d54dac9f385.png)
+![公共模块项目启动顺序](https://assets.processon.com/chart_image/5f1bd961e0b34d54dac9f385.png)
 
 
 
@@ -93,7 +93,7 @@
 
 项目启动顺序：
 
-![基础模块启动顺序](http://assets.processon.com/chart_image/5f1be652637689168e339a77.png)
+![基础模块启动顺序](https://assets.processon.com/chart_image/5f1be652637689168e339a77.png)
 
 
 
@@ -107,7 +107,7 @@
 
 项目启动顺序：
 
-![功能模块启动顺序](http://assets.processon.com/chart_image/5f1be9340791291b99664fad.png)
+![功能模块启动顺序](https://assets.processon.com/chart_image/5f1be9340791291b99664fad.png)
 
 ::: tip 重点
 通过这几张图，可以很清晰的看出，所有公共的操作，都内置到了 `公共模块` , 业务功能模块，直接调用。
