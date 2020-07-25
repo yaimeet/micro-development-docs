@@ -3,7 +3,7 @@ const sidebar = require('./navbar/index')
 console.log(sidebar)
 
 module.exports = {
-    title: 'MicroDevelopment',
+    title: 'MicroDevelopment - 微开发',
     description: '基于微服务思想，融合模块化方式，衍生的一种新型开发方式。',
     base: '/',
     dest: './dist/',
