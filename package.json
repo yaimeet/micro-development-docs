@@ -1,0 +1,29 @@
+{
+  "name": "micro-development-docs",
+  "version": "1.0.0",
+  "description": "> 基于微服务思想，融合模块化方式，衍生的一种新型开发方式。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micro-development/micro-development-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micro-development/micro-development-docs/issues"
+  },
+  "homepage": "https://github.com/micro-development/micro-development-docs#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.2.0",
+    "vuepress": "^1.5.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
