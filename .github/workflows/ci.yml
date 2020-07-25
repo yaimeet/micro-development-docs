@@ -1,4 +1,4 @@
-name: MicroDevelopmentDocs Deploy
+name: MicroDevelopmentDocs CI
 on:
   push:
     branches:
