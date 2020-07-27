@@ -20,7 +20,7 @@
 
 1. 打开终端（window 记得用 git bash）
 2. vim ~/.ssh/config # 如果没有该文件 ，这条命令会自动创建文件，并打开 vim 编辑器模式，输入 i 可进行编辑
-3. 复制 StrictHostKeyChecking no 到文件中
+3. 复制 `StrictHostKeyChecking no` 到文件中
 4. 保存退出即可。 # 以后任何平台 ssh 第一次连接，都不会再提示。
 
 Jenkins 发布时，Jenkins 所在机器，按照同样的方式设置即可。
