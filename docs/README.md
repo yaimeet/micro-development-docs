@@ -2,7 +2,7 @@
 home: true
 # heroImage: /hero.png
 heroText: 微开发
-tagline: 基于微服务和模块化衍生出的微开发模式，在基于微服务的抽象思想上，模拟了模块化的依赖方式，使得开发过程中，效率得以提升。
+tagline: 基于 git仓库 的 源码管理器，模拟了模块包的依赖方式，同时也借鉴了微服务的部分思想，使得开发过程中，效率得以提升。
 actionText: 快速了解 →
 actionLink: /quickStart/
 features:
