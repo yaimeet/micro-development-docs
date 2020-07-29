@@ -58,20 +58,22 @@ md-cli
 输出以下信息即代表成功。
 
 ```bash
-micro-development-cli
+基于微开发模式的脚手架工具 micro-development-cli
 
 VERSION
-  micro-development-cli/0.0.4 darwin-x64 node-v12.14.0
+  micro-development-cli/0.0.9 darwin-x64 node-v12.14.0
 
 USAGE
   $ md-cli [COMMAND]
 
 COMMANDS
   add      （a）安装一个依赖（git仓库）
+  commit   （c）提交仓库变更（git commit）
   help     display help for md-cli
   init     初始化配置文件（micro-development.json）
   install  （i）安装配置文件中所有的依赖（git仓库），已安装则忽略
   remove   （r）移除一个依赖（git仓库）
+  status   （s）查看一个依赖变更状态（git status）
   update   （u）更新一个依赖（git仓库）
 
 ```
@@ -100,6 +102,7 @@ md-cli init
 | targetDir         | string      | yes      |    存储 `依赖的业务仓库` 的目录位置，就像 npm 的 `node_modules` |
 | gitHost           | string      | yes      |    git服务器主机地址 |
 | gitNamespace      | string      | yes      |    git命名空间，或者用户名（owner） |
+| packageKeySplit   | string      | on      |     packageKey是由仓库名和组织名拼接，这个是拼接符号，默认为 `#` |
 | dependencies      | object      | no       |    `gitPackage`（见术语定义） |
 | lock              | boolean     | yes      |    是否锁定，锁定之后不可以再通过脚手架操作 |
 
@@ -124,6 +127,7 @@ export interface InitParams {
     targetDir: string;
     gitHost: string;
     gitNamespace: string;
+    packageKeySplit: string;
     dependencies: {
         [propName: string]: PackageConfig;
     };
@@ -192,6 +196,7 @@ export interface PackageConfig {
   "targetDir": "src/base-resource",
   "gitHost": "git@github.com",
   "gitNamespace": "ittlr",
+  "packageKeySplit": "#",
   "dependencies": {},
   "lock": false
 }
@@ -423,7 +428,7 @@ option 参数分为以下三种情况：
 ## commit
 
 :::tip git提交
-提交依赖中的变更，内部执行 `git commit -a && git commit -am commitContent` 。
+提交依赖中的变更，内部执行 `git commit -a && git commit -am commitContent && git pull && git push` (后面会把 push 分开)。
 :::
 
 ### 格式
