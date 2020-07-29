@@ -223,8 +223,8 @@ export interface PackageConfig {
 
 `key` 的格式为两种：
 
-1. `gitRpoName@gitBranchName`
-2. `gitUrl@gitBranchName`
+1. `gitRpoName#gitBranchName`
+2. `gitUrl#gitBranchName`
 
 当为第1种时，代表的是该仓库属于全局配置的 `gitHost` 平台下。
 
