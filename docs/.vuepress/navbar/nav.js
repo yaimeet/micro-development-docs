@@ -14,5 +14,9 @@ module.exports = [
     {
         text: '常见问题',
         link: '/question'
+    },
+    {
+        text: '关于',
+        link: '/about'
     }
 ]
