@@ -26,16 +26,32 @@
 
 假设你已经完全看完上面的文档，下面将直接进入主题了。
 
-首先，关于  `微开发` 的项目都在 [微开发-GitHub](https://github.com/micro-development) 这里，这里面有以下几类仓库：
+首先，关于  `微开发` 的项目都在 [微开发-GitHub](https://github.com/micro-development) 这里，下面对仓库简单说明一下：
 
 
 - [官方文档-本站，micro-development-docs](https://github.com/micro-development/micro-development-docs)
-- [shell版-脚手架，micro-development-sh](https://github.com/micro-development/micro-development-sh)
+- [shell版-脚手架，micro-development-sh , 已弃用](https://github.com/micro-development/micro-development-sh)
 - [node版本-脚手架，micro-development-cli](https://github.com/micro-development/micro-development-cli)
+
+
+
+### Sapmle-Demo
+
+::: tip 简单示例
+下面几个仓库，是简单的演示了一下 如何使用 git仓库 作为依赖的案例。
+:::
+
+- [示例，公共js - sample-js](https://github.com/micro-development/sample-js)
+- [示例，公共css - sample-css](https://github.com/micro-development/sample-css)
+- [示例，页面 - sample-html](https://github.com/micro-development/sample-html)
+
+**这个 demo 纯粹的演示了，以 git仓库 作为依赖 的管理和使用方式，具体详情点击上方连接查看。**
 
 ### Demo-VueAdmin
 
-> 下面是基于 `Vue` 版本的 后台管理 `demo` ：
+::: tip 简单示例
+下面是基于 `Vue` 版本的 后台管理 `demo` 。
+:::
 
 - [公共模块，系统初始化入口 - vue-admin-common](https://github.com/micro-development/vue-admin-common)
 - [基础模块，账户中心 - vue-admin-basic](https://github.com/micro-development/vue-admin-basic)
