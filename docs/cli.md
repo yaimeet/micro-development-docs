@@ -61,7 +61,7 @@ md-cli
 基于微开发模式的脚手架工具 micro-development-cli
 
 VERSION
-  micro-development-cli/0.0.9 darwin-x64 node-v12.14.0
+  micro-development-cli/0.1.0 darwin-x64 node-v12.14.0
 
 USAGE
   $ md-cli [COMMAND]
@@ -75,7 +75,6 @@ COMMANDS
   remove   （r）移除一个依赖（git仓库）
   status   （s）查看一个依赖变更状态（git status）
   update   （u）更新一个依赖（git仓库）
-
 ```
 
 ## init
