@@ -101,7 +101,7 @@
   
 项目启动顺序是这样的：
 
-![公共模块项目启动顺序](https://assets.processon.com/chart_image/5f1bd961e0b34d54dac9f385.png)
+![公共模块项目启动顺序](https://cdn.ittlr.com/public/micro-development/5f1bd961e0b34d54dac9f385.png)
 
 
 
